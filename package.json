@@ -1,0 +1,29 @@
+{
+  "name": "backend-todo-app",
+  "version": "1.0.0",
+  "description": "A node.js todo app with Express, Prisma and JWT authentication",
+  "homepage": "https://github.com/hossain-adnan/backend-todo-app#readme",
+  "bugs": {
+    "url": "https://github.com/hossain-adnan/backend-todo-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossain-adnan/backend-todo-app.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
